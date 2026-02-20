@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="animated">
+            <a href="#home" class="logo">Portfolio</a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about" class="active">About</a>
+                <a href="#projects" class="active">Projects</a>
+                <a href="#experience" class="active">Experience</a>
+                <a href="#contact" class="active">Contact</a>
+            </nav>
+        </header>
+
+        <section id=home class="home animated">
+            <div class="home-detail">
+                <h1>Lukaz Solding</h1>
+                <h2>Computer Scientist</h2>
+                <p>Student at Adelaide University</p>
+                <div class="download-social">
+                    <a href="resume.pdf" class="btn" download>Download Resume</a>
+                    <div class="social-icons">
+                        <a href="https://github.com/LukTeddy/" target="_blank"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/lukaz-solding/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="Images/home.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <div class="container" id="about">
+        <h2>About Me:</h2>
+        <section class="about animated">
+            <div class="about-text">
+                <p>Hi, my name is <b>Lukaz Solding</b> and I am a second year <b>Computer Science</b> student at Adelaide University.
+                Software development, especially creatively focused is an aspect of my life that I have been interested in since primary school.</p>
+                <p>Currently I am working on some personal projects such as improving my <b>Nutrition Tracker</b> and <b>Interactive Parkour Spot Map</b>, as well as working on a new project which is a <b>Adelaide Metro Tracker</b>.
+                This project will involve a lot of algorithmqs and utelisation of data to allow users to see all the bus, tram and train routes within Adelaide's metro system
+                and determine which routes they have previously followed as well routes they could follow.</p>
+                <p>I'm excited and open to facing various challenges to push myself and experience new things within the Software Development and Technology industries.</p>
+            </div>
+            <div class="about-img">
+                <div class="img-box">
+                    <img src="Images/coding.jpg" alt="Coding Image">
+                </div>
+                <div class="gpa">
+                    <h4>GPA:&emsp;&emsp;6.625</h4>
+                    <h4>Projects:&emsp;&emsp;4</h4>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container" id="projects">
+        <h2>My Projects</h2>
+        <section class="projects animated">
+            <div class="project">
+                <div class="project-images">
+                    <img src="Images/project1.png" alt="Project 1 Image 1">
+                    <img src="Images/project1(2).png" alt="Project 1 Image 2">
+                </div>
+                <h3>Interactive Parkour Spot Map</h3>
+                <p><span style="font-weight: 900; color: black;">Tools Used:</span> Python (Django), HTML and CSS, Linode</p>
+                <p>Website that allows users to interact with each other on user added spot locations within Adelaide.
+                    Ability to add challenges, images and videos to spots.</p>
+                <a href="https://github.com/LukTeddy/parkour-app" target="_blank">View on GitHub</a>
+                <br>
+                <a href="https://www.parkour-map.com/" target="_blank">Go to website</a>
+            </div>
+            <div class="project">
+                <div class="project-images">
+                    <img src="Images/project2.png" alt="Project 2 Image 1">
+                    <img src="Images/project2(2).png" alt="Project 2 Image 2">
+                </div>
+                <h3>Mine Setter Game</h3>
+                <p><span style="font-weight: 900; color: black;">Tools Used:</span> Python (Pygame)</p>
+                <p>A problem solving game that allows users to place bombs down on various locations within a grid in order to defeat the enemies.
+                    The code determines the positions the user must place in order to win and then creates the enemy positions using randomisation and backtracking.</p>
+                <a href="https://github.com/LukTeddy/mine-game" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <div class="project-images">
+                    <img src="Images/project3.png" alt="Project 3 Image 1">
+                    <img src="Images/project3(2).png" alt="Project 3 Image 2">
+                </div>
+                <h3>Nutrition Tracker</h3>
+                <p><span style="font-weight: 900; color: black;">Tools Used:</span> C++</p>
+                <p>Nutrition tracker where users can track the amount of calories, carbs, protein, and fat they consume per meal and day.
+                    They can also create and edit goals to see and track their progress.</p>
+                <a href="https://github.com/LukTeddy/nutrition-tracker" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project">
+                <div class="project-images">
+                    <img src="Images/project4.png" alt="Project 4 Image 1">
+                    <img src="Images/project4(2).png" alt="Project 4 Image 2">
+                </div>
+                <h3>Slime Platformer</h3>
+                <p><span style="font-weight: 900; color: black;">Tools Used:</span> Python (Pygame), Tiled</p>
+                <p>Platformer game with physics, particles effects, multiple levels and character customisation. Avoid enemies and hazards and complete the levels.</p>
+                <a href="https://github.com/LukTeddy/slime-platformer" target="_blank">View on GitHub</a>
+            </div>
+        </section>
+    </div>
+
+    <div class="container" id="experience">
+        <section class="experience animated">
+            <h2>Skills and Experience</h2>
+            <div class="exp">
+                <h3>Adelaide Competitive Programming Club</h3>
+                <ul>
+                    <li>Participation in Adelaide Competitive Programming League – Div B</li>
+                    <li>Attending workshops to improve DSA skills</li>
+                    <li>Practicing critical thinking and strong algorithmic design within a short time frame</li>
+                    <li>Placed 6th in a competition</li>
+                </ul>
+                <h3>Computer Science Club</h3>
+                <ul>
+                    <li>Participation in Susquehanna Series</li>
+                    <li>Participation in workshops on Python and Web Development</li>
+                    <li>Attended meet and greets</li>
+                </ul>
+                <h3>Ravi's Study Program</h3>
+                <ul>
+                    <li>Completed 100+ leetcodes relating to DSA within a timed environment</li>
+                    <li>Created multiple projects and improved communicative skills with other individuals</li>
+                    <li>Completed up to Intermediate ranking, around 50 individuals total</li>
+                </ul>
+            </div>
+            <div class="skills">
+                <h3>Programming Languages</h3>
+                <p>C++/C, Python, MATLAB, HTML, CSS, C#</p>
+                <h3>Developer Tools and Technologies</h3>
+                <p>Linux, GitHub, Linode, Django, Pygame, 3D Modelling</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container" id="contact">
+        <section class="contact animated">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, feel free to send me a message below!</p>
+            <form action="https://formspree.io/f/xpqjjdnr" method="POST">
+                <input type="hidden" name="_subject" value="New Portfolio Message">
+                <input type="text" name="_gotcha" style="display:none">
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </div>
+    
+</body>
+    <footer>
+        <p>&copy; 2026 Lukaz Solding. All Rights Reserved.</p>
+    </footer>
+</html>
+
+<script>
+    window.addEventListener('scroll', function () {
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.navbar a');
+        const headerHeight = document.querySelector('header').offsetHeight;
+
+        let currentSection = "";
+
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop - headerHeight;
+            const sectionBottom = sectionTop + section.clientHeight;
+            const scrollPosition = window.pageYOffset;
+
+            if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+            currentSection = section.getAttribute('id');
+        }
+        });
+
+        navLinks.forEach((link) => {
+            link.classList.remove('active');
+            if (link.getAttribute('href').substring(1) === currentSection) {
+                link.classList.add('active');
+            }
+        });
+    });
+</script>
